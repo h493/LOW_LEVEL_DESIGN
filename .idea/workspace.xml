@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="abebada2-e62e-4608-8dca-6fc42a904dae" name="Changes" comment="Decorator Design Pattern">
-      <change afterPath="$PROJECT_DIR$/src/Design_Patterns/FactoryDesignPattern/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Design_Patterns/FactoryDesignPattern/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Design_Patterns/FactoryDesignPattern/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Design_Patterns/FactoryDesignPattern/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Design_Patterns/FactoryDesignPattern/ShapeFactory.java" afterDir="false" />
+    <list default="true" id="abebada2-e62e-4608-8dca-6fc42a904dae" name="Changes" comment="Factory Design Pattern -&gt; Creational">
+      <change afterPath="$PROJECT_DIR$/src/Design_Patterns/BuilderDesignPattern/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Design_Patterns/BuilderDesignPattern/Director.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Design_Patterns/BuilderDesignPattern/EngineeringStudentBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Design_Patterns/BuilderDesignPattern/MBAStudentBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Design_Patterns/BuilderDesignPattern/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Design_Patterns/BuilderDesignPattern/StudentBuilder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +56,20 @@
       <recent name="Design_Patterns.StrategyDesignPattern" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Creator">
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Design_Patterns.BuilderDesignPattern.Client" />
+      <module name="LLD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Design_Patterns.BuilderDesignPattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Creator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Design_Patterns.FactoryDesignPattern.Creator" />
       <module name="LLD" />
@@ -97,6 +111,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client" />
         <item itemvalue="Application.Creator" />
         <item itemvalue="Application.Dominos" />
         <item itemvalue="Application.Store" />
@@ -111,7 +126,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1709046621965</updated>
-      <workItem from="1709046623874" duration="16707000" />
+      <workItem from="1709046623874" duration="21073000" />
     </task>
     <task id="LOCAL-00001" summary="strategy design pattern">
       <created>1709052802313</created>
@@ -134,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1709143807926</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Factory Design Pattern -&gt; Creational">
+      <created>1709276991337</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1709276991337</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,6 +166,7 @@
     <MESSAGE value="strategy design pattern" />
     <MESSAGE value="Observer Design Pattern" />
     <MESSAGE value="Decorator Design Pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Decorator Design Pattern" />
+    <MESSAGE value="Factory Design Pattern -&gt; Creational" />
+    <option name="LAST_COMMIT_MESSAGE" value="Factory Design Pattern -&gt; Creational" />
   </component>
 </project>

@@ -4,16 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="abebada2-e62e-4608-8dca-6fc42a904dae" name="Changes" comment="Builder Design Pattern -&gt; Creational Pattern">
-      <change afterPath="$PROJECT_DIR$/src/Design_Patterns/AbstractDesignPattern/AbstractFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Design_Patterns/AbstractDesignPattern/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Design_Patterns/AbstractDesignPattern/EconomicCar1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Design_Patterns/AbstractDesignPattern/EconomicCar2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Design_Patterns/AbstractDesignPattern/EconomicCarFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Design_Patterns/AbstractDesignPattern/LuxuryCar1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Design_Patterns/AbstractDesignPattern/LuxuryCar2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Design_Patterns/AbstractDesignPattern/LuxuryCarFactory.java" afterDir="false" />
+    <list default="true" id="abebada2-e62e-4608-8dca-6fc42a904dae" name="Changes" comment="Abstract Factory Pattern -&gt; Creational Pattern">
+      <change afterPath="$PROJECT_DIR$/src/Design_Patterns/BehaviouralDesignPattern/NullObjectPattern/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Design_Patterns/BehaviouralDesignPattern/NullObjectPattern/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Design_Patterns/BehaviouralDesignPattern/NullObjectPattern/NullObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Design_Patterns/BehaviouralDesignPattern/NullObjectPattern/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Design_Patterns/BehaviouralDesignPattern/NullObjectPattern/VehicleFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Design_Patterns/StrategyDesignPattern/withDesignPattern/OffRoadVehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Design_Patterns/BehaviouralDesignPattern/StrategyDesignPattern/withDesignPattern/OffRoadVehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Design_Patterns/StrategyDesignPattern/withDesignPattern/Strategy/DriveStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Design_Patterns/BehaviouralDesignPattern/StrategyDesignPattern/withDesignPattern/Strategy/DriveStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Design_Patterns/StrategyDesignPattern/withDesignPattern/Strategy/NormalDriveStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Design_Patterns/BehaviouralDesignPattern/StrategyDesignPattern/withDesignPattern/Strategy/NormalDriveStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Design_Patterns/StrategyDesignPattern/withDesignPattern/Strategy/SportsDriveStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Design_Patterns/BehaviouralDesignPattern/StrategyDesignPattern/withDesignPattern/Strategy/SportsDriveStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Design_Patterns/StrategyDesignPattern/withDesignPattern/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Design_Patterns/BehaviouralDesignPattern/StrategyDesignPattern/withDesignPattern/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Design_Patterns/StrategyDesignPattern/withDesignPattern/sportsVehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Design_Patterns/BehaviouralDesignPattern/StrategyDesignPattern/withDesignPattern/sportsVehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Design_Patterns/StrategyDesignPattern/withoutDesignPattern/GoodVehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Design_Patterns/BehaviouralDesignPattern/StrategyDesignPattern/withoutDesignPattern/GoodVehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Design_Patterns/StrategyDesignPattern/withoutDesignPattern/PassengerVehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Design_Patterns/BehaviouralDesignPattern/StrategyDesignPattern/withoutDesignPattern/PassengerVehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Design_Patterns/StrategyDesignPattern/withoutDesignPattern/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Design_Patterns/BehaviouralDesignPattern/StrategyDesignPattern/withoutDesignPattern/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Design_Patterns/StrategyDesignPattern/withoutDesignPattern/offRoadVehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Design_Patterns/BehaviouralDesignPattern/StrategyDesignPattern/withoutDesignPattern/offRoadVehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Design_Patterns/StrategyDesignPattern/withoutDesignPattern/sportsVehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Design_Patterns/BehaviouralDesignPattern/StrategyDesignPattern/withoutDesignPattern/sportsVehicle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,13 +66,13 @@
       <recent name="Design_Patterns.StrategyDesignPattern" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Design_Patterns.AbstractDesignPattern.Client">
+  <component name="RunManager" selected="Application.Design_Patterns.BehaviouralDesignPattern.NullObjectPattern.Client">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Design_Patterns.BuilderDesignPattern.Client" />
+      <option name="MAIN_CLASS_NAME" value="Design_Patterns.CreationalDesignPattern.BuilderDesignPattern.Client" />
       <module name="LLD" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Design_Patterns.BuilderDesignPattern.*" />
+          <option name="PATTERN" value="Design_Patterns.CreationalDesignPattern.BuilderDesignPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,11 +81,11 @@
       </method>
     </configuration>
     <configuration name="Creator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Design_Patterns.FactoryDesignPattern.Creator" />
+      <option name="MAIN_CLASS_NAME" value="Design_Patterns.CreationalDesignPattern.FactoryDesignPattern.Creator" />
       <module name="LLD" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Design_Patterns.FactoryDesignPattern.*" />
+          <option name="PATTERN" value="Design_Patterns.CreationalDesignPattern.FactoryDesignPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,12 +93,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Design_Patterns.AbstractDesignPattern.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Design_Patterns.AbstractDesignPattern.Client" />
+    <configuration name="Design_Patterns.BehaviouralDesignPattern.NullObjectPattern.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Design_Patterns.BehaviouralDesignPattern.NullObjectPattern.Client" />
       <module name="LLD" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Design_Patterns.AbstractDesignPattern.*" />
+          <option name="PATTERN" value="Design_Patterns.BehaviouralDesignPattern.NullObjectPattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Design_Patterns.CreationalDesignPattern.AbstractDesignPattern.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Design_Patterns.CreationalDesignPattern.AbstractDesignPattern.Client" />
+      <module name="LLD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Design_Patterns.CreationalDesignPattern.AbstractDesignPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,26 +132,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Store" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Design_Patterns.ObserverDesignPattern.Store" />
-      <module name="LLD" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Design_Patterns.ObserverDesignPattern.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Design_Patterns.AbstractDesignPattern.Client" />
+        <item itemvalue="Application.Design_Patterns.BehaviouralDesignPattern.NullObjectPattern.Client" />
+        <item itemvalue="Application.Design_Patterns.CreationalDesignPattern.AbstractDesignPattern.Client" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.Creator" />
         <item itemvalue="Application.Dominos" />
-        <item itemvalue="Application.Store" />
       </list>
     </recent_temporary>
   </component>
@@ -143,7 +151,7 @@
       <option name="presentableId" value="Default" />
       <updated>1709046621965</updated>
       <workItem from="1709046623874" duration="22329000" />
-      <workItem from="1709463350822" duration="2156000" />
+      <workItem from="1709463350822" duration="4517000" />
     </task>
     <task id="LOCAL-00001" summary="strategy design pattern">
       <created>1709052802313</created>
@@ -180,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1709398889283</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Abstract Factory Pattern -&gt; Creational Pattern">
+      <created>1709468569337</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1709468569337</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,6 +207,7 @@
     <MESSAGE value="Decorator Design Pattern" />
     <MESSAGE value="Factory Design Pattern -&gt; Creational" />
     <MESSAGE value="Builder Design Pattern -&gt; Creational Pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Builder Design Pattern -&gt; Creational Pattern" />
+    <MESSAGE value="Abstract Factory Pattern -&gt; Creational Pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Abstract Factory Pattern -&gt; Creational Pattern" />
   </component>
 </project>

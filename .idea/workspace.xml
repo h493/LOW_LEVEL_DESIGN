@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="abebada2-e62e-4608-8dca-6fc42a904dae" name="Changes" comment="Chain Responsiblity Design -&gt; Behavioural Design Pattern">
-      <change afterPath="$PROJECT_DIR$/src/Design_Patterns/BehaviouralDesignPattern/MediatorDesignPattern/Auction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Design_Patterns/BehaviouralDesignPattern/MediatorDesignPattern/AuctionMediator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Design_Patterns/BehaviouralDesignPattern/MediatorDesignPattern/Bidder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Design_Patterns/BehaviouralDesignPattern/MediatorDesignPattern/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Design_Patterns/BehaviouralDesignPattern/MediatorDesignPattern/Colleague.java" afterDir="false" />
+    <list default="true" id="abebada2-e62e-4608-8dca-6fc42a904dae" name="Changes" comment="online Auction system">
+      <change afterPath="$PROJECT_DIR$/src/Design_Patterns/BehaviouralDesignPattern/InterpretorDesignPattern/AbstractExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Design_Patterns/BehaviouralDesignPattern/InterpretorDesignPattern/BinaryNonTerminalExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Design_Patterns/BehaviouralDesignPattern/InterpretorDesignPattern/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Design_Patterns/BehaviouralDesignPattern/InterpretorDesignPattern/Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Design_Patterns/BehaviouralDesignPattern/InterpretorDesignPattern/NumberTerminalExpression.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,13 +55,13 @@
       <recent name="Design_Patterns.StrategyDesignPattern" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Design_Patterns.BehaviouralDesignPattern.MediatorDesignPattern.Client">
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Design_Patterns.CreationalDesignPattern.BuilderDesignPattern.Client" />
+  <component name="RunManager" selected="Application.Design_Patterns.BehaviouralDesignPattern.InterpretorDesignPattern.Client">
+    <configuration name="Design_Patterns.BehaviouralDesignPattern.ChainResponsiblityDesignPattern.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Design_Patterns.BehaviouralDesignPattern.ChainResponsiblityDesignPattern.Client" />
       <module name="LLD" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Design_Patterns.CreationalDesignPattern.BuilderDesignPattern.*" />
+          <option name="PATTERN" value="Design_Patterns.BehaviouralDesignPattern.ChainResponsiblityDesignPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,12 +69,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Design_Patterns.BehaviouralDesignPattern.ChainResponsiblityDesignPattern.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Design_Patterns.BehaviouralDesignPattern.ChainResponsiblityDesignPattern.Client" />
+    <configuration name="Design_Patterns.BehaviouralDesignPattern.InterpretorDesignPattern.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Design_Patterns.BehaviouralDesignPattern.InterpretorDesignPattern.Client" />
       <module name="LLD" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Design_Patterns.BehaviouralDesignPattern.ChainResponsiblityDesignPattern.*" />
+          <option name="PATTERN" value="Design_Patterns.BehaviouralDesignPattern.InterpretorDesignPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Design_Patterns.BehaviouralDesignPattern.InterpretorDesignPattern.Client" />
         <item itemvalue="Application.Design_Patterns.BehaviouralDesignPattern.MediatorDesignPattern.Client" />
         <item itemvalue="Application.Design_Patterns.BehaviouralDesignPattern.ChainResponsiblityDesignPattern.Client" />
         <item itemvalue="Application.Design_Patterns.BehaviouralDesignPattern.NullObjectPattern.Client" />
         <item itemvalue="Application.Design_Patterns.CreationalDesignPattern.AbstractDesignPattern.Client" />
-        <item itemvalue="Application.Client" />
       </list>
     </recent_temporary>
   </component>
@@ -140,7 +140,7 @@
       <option name="presentableId" value="Default" />
       <updated>1709046621965</updated>
       <workItem from="1709046623874" duration="22329000" />
-      <workItem from="1709463350822" duration="13986000" />
+      <workItem from="1709463350822" duration="16923000" />
     </task>
     <task id="LOCAL-00001" summary="strategy design pattern">
       <created>1709052802313</created>
@@ -198,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1709653863521</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="online Auction system">
+      <created>1710033761794</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1710033761794</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,6 +220,7 @@
     <MESSAGE value="Abstract Factory Pattern -&gt; Creational Pattern" />
     <MESSAGE value="Null Object Design Pattern -&gt; Behavioural Design Pattern" />
     <MESSAGE value="Chain Responsiblity Design -&gt; Behavioural Design Pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chain Responsiblity Design -&gt; Behavioural Design Pattern" />
+    <MESSAGE value="online Auction system" />
+    <option name="LAST_COMMIT_MESSAGE" value="online Auction system" />
   </component>
 </project>

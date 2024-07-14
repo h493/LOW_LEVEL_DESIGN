@@ -4,13 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="abebada2-e62e-4608-8dca-6fc42a904dae" name="Changes" comment="State Design Pattern">
-      <change afterPath="$PROJECT_DIR$/src/Design_Patterns/StructuralDesignPattern/ProxyDesignPattern/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Design_Patterns/StructuralDesignPattern/ProxyDesignPattern/EmployeeDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Design_Patterns/StructuralDesignPattern/ProxyDesignPattern/EmployeeDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Design_Patterns/StructuralDesignPattern/ProxyDesignPattern/EmployeeDaoProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Design_Patterns/StructuralDesignPattern/ProxyDesignPattern/EmployeeDo.java" afterDir="false" />
+    <list default="true" id="abebada2-e62e-4608-8dca-6fc42a904dae" name="Changes" comment="Proxy Design Pattern">
+      <change afterPath="$PROJECT_DIR$/src/Design_Patterns/StructuralDesignPattern/AdapterDesignPattern/Adaptee/WeightMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Design_Patterns/StructuralDesignPattern/AdapterDesignPattern/Adaptee/WeightMachineForBabies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Design_Patterns/StructuralDesignPattern/AdapterDesignPattern/Adapter/WeightMachineAdapterImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Design_Patterns/StructuralDesignPattern/AdapterDesignPattern/Adapter/WeightMachineAdaptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Design_Patterns/StructuralDesignPattern/AdapterDesignPattern/Client/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Design_Patterns/StructuralDesignPattern/BridgeDesignPattern/Breathe/BreatheImplementor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Design_Patterns/StructuralDesignPattern/BridgeDesignPattern/Breathe/LandBreathe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Design_Patterns/StructuralDesignPattern/BridgeDesignPattern/Breathe/TreeBreathe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Design_Patterns/StructuralDesignPattern/BridgeDesignPattern/Breathe/WaterBreathe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Design_Patterns/StructuralDesignPattern/BridgeDesignPattern/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Design_Patterns/StructuralDesignPattern/BridgeDesignPattern/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Design_Patterns/StructuralDesignPattern/BridgeDesignPattern/Fish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Design_Patterns/StructuralDesignPattern/BridgeDesignPattern/LivingThings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Design_Patterns/StructuralDesignPattern/BridgeDesignPattern/Tree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Design_Patterns/BehaviouralDesignPattern/ObserverDesignPattern/Observer/MobileAlertObserverImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Design_Patterns/BehaviouralDesignPattern/ObserverDesignPattern/Observer/MobileAlertObserverImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,13 +66,13 @@
       <recent name="Design_Patterns.StrategyDesignPattern" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Design_Patterns.StructuralDesignPattern.ProxyDesignPattern.Client">
+  <component name="RunManager" selected="Application.Client">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Design_Patterns.BehaviouralDesignPattern.CommandDesignPattern.Client" />
+      <option name="MAIN_CLASS_NAME" value="Design_Patterns.StructuralDesignPattern.AdapterDesignPattern.Client.Client" />
       <module name="LLD" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Design_Patterns.BehaviouralDesignPattern.CommandDesignPattern.*" />
+          <option name="PATTERN" value="Design_Patterns.StructuralDesignPattern.AdapterDesignPattern.Client.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Design_Patterns.StructuralDesignPattern.ProxyDesignPattern.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Design_Patterns.StructuralDesignPattern.ProxyDesignPattern.Client" />
+    <configuration name="Store" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Design_Patterns.BehaviouralDesignPattern.ObserverDesignPattern.Store" />
       <module name="LLD" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Design_Patterns.StructuralDesignPattern.ProxyDesignPattern.*" />
+          <option name="PATTERN" value="Design_Patterns.BehaviouralDesignPattern.ObserverDesignPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Design_Patterns.StructuralDesignPattern.ProxyDesignPattern.Client" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.Design_Patterns.BehaviouralDesignPattern.InterpretorDesignPattern.Client" />
         <item itemvalue="Application.Design_Patterns.BehaviouralDesignPattern.MediatorDesignPattern.Client" />
         <item itemvalue="Application.Design_Patterns.BehaviouralDesignPattern.ChainResponsiblityDesignPattern.Client" />
+        <item itemvalue="Application.Store" />
       </list>
     </recent_temporary>
   </component>
@@ -142,7 +152,9 @@
       <updated>1709046621965</updated>
       <workItem from="1709046623874" duration="22329000" />
       <workItem from="1709463350822" duration="25945000" />
-      <workItem from="1710162146090" duration="9053000" />
+      <workItem from="1710162146090" duration="9125000" />
+      <workItem from="1720430675890" duration="19776000" />
+      <workItem from="1720851593928" duration="13543000" />
     </task>
     <task id="LOCAL-00001" summary="strategy design pattern">
       <created>1709052802313</created>
@@ -221,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1710175602650</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Proxy Design Pattern">
+      <created>1710668564575</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1710668564575</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,6 +258,7 @@
     <MESSAGE value="online Auction system" />
     <MESSAGE value="Interpretor Design Pattern" />
     <MESSAGE value="State Design Pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="State Design Pattern" />
+    <MESSAGE value="Proxy Design Pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Proxy Design Pattern" />
   </component>
 </project>

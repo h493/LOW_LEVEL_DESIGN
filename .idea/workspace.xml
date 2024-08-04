@@ -4,34 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="abebada2-e62e-4608-8dca-6fc42a904dae" name="Changes" comment="bridge and adapter design pattern">
-      <change afterPath="$PROJECT_DIR$/src/Design_Patterns/BehaviouralDesignPattern/MomentoDesignPattern/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Design_Patterns/BehaviouralDesignPattern/MomentoDesignPattern/ConfigurationCareTaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Design_Patterns/BehaviouralDesignPattern/MomentoDesignPattern/ConfigurationMomento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Design_Patterns/BehaviouralDesignPattern/MomentoDesignPattern/ConfigurationOriginator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Design_Patterns/StructuralDesignPattern/CompositeDesignPattern/ProblemStatement/Directory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Design_Patterns/StructuralDesignPattern/CompositeDesignPattern/ProblemStatement/File.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Design_Patterns/StructuralDesignPattern/CompositeDesignPattern/ProblemStatement/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Design_Patterns/StructuralDesignPattern/CompositeDesignPattern/Solution1WithCompositeDesign/Directory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Design_Patterns/StructuralDesignPattern/CompositeDesignPattern/Solution1WithCompositeDesign/File.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Design_Patterns/StructuralDesignPattern/CompositeDesignPattern/Solution1WithCompositeDesign/FileSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Design_Patterns/StructuralDesignPattern/CompositeDesignPattern/Solution1WithCompositeDesign/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Design_Patterns/StructuralDesignPattern/CompositeDesignPattern/Solution2WithCompositeDesign/ArithmeticExpression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Design_Patterns/StructuralDesignPattern/CompositeDesignPattern/Solution2WithCompositeDesign/Expression.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Design_Patterns/StructuralDesignPattern/CompositeDesignPattern/Solution2WithCompositeDesign/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Design_Patterns/StructuralDesignPattern/CompositeDesignPattern/Solution2WithCompositeDesign/Number.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Design_Patterns/StructuralDesignPattern/CompositeDesignPattern/Solution2WithCompositeDesign/Operation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Design_Patterns/StructuralDesignPattern/FlyWeightPattern/RobotGame/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Design_Patterns/StructuralDesignPattern/FlyWeightPattern/RobotGame/HumanoidRobot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Design_Patterns/StructuralDesignPattern/FlyWeightPattern/RobotGame/IRobot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Design_Patterns/StructuralDesignPattern/FlyWeightPattern/RobotGame/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Design_Patterns/StructuralDesignPattern/FlyWeightPattern/RobotGame/RoboticDog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Design_Patterns/StructuralDesignPattern/FlyWeightPattern/RobotGame/RoboticFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Design_Patterns/StructuralDesignPattern/FlyWeightPattern/RobotGame/Sprites.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Design_Patterns/StructuralDesignPattern/FlyWeightPattern/WordProcessor/DocumentCharacter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Design_Patterns/StructuralDesignPattern/FlyWeightPattern/WordProcessor/ILetter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Design_Patterns/StructuralDesignPattern/FlyWeightPattern/WordProcessor/LetterFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Design_Patterns/StructuralDesignPattern/FlyWeightPattern/WordProcessor/Main.java" afterDir="false" />
+    <list default="true" id="abebada2-e62e-4608-8dca-6fc42a904dae" name="Changes" comment="design pattern">
+      <change afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/CAR_RENTAL_SYSTEM/Bill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/CAR_RENTAL_SYSTEM/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/CAR_RENTAL_SYSTEM/Location.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/CAR_RENTAL_SYSTEM/Payment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/CAR_RENTAL_SYSTEM/Product/Bike.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/CAR_RENTAL_SYSTEM/Product/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/CAR_RENTAL_SYSTEM/Product/Status.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/CAR_RENTAL_SYSTEM/Product/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/CAR_RENTAL_SYSTEM/Product/VehicleType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/CAR_RENTAL_SYSTEM/Reservation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/CAR_RENTAL_SYSTEM/ReservationStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/CAR_RENTAL_SYSTEM/ReservationType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/CAR_RENTAL_SYSTEM/Store.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/CAR_RENTAL_SYSTEM/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/CAR_RENTAL_SYSTEM/VehicleInventoryManagement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/CAR_RENTAL_SYSTEM/VehicleRentalSystem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,8 +31,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -78,7 +67,20 @@
       <recent name="Design_Patterns.StrategyDesignPattern" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Design_Patterns.BehaviouralDesignPattern.MomentoDesignPattern.Client">
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="INTERVIEW_QUESTION.CAR_RENTAL_SYSTEM.Client" />
+      <module name="LLD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="INTERVIEW_QUESTION.CAR_RENTAL_SYSTEM.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Design_Patterns.BehaviouralDesignPattern.MomentoDesignPattern.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Design_Patterns.BehaviouralDesignPattern.MomentoDesignPattern.Client" />
       <module name="LLD" />
@@ -131,26 +133,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Design_Patterns.StructuralDesignPattern.CompositeDesignPattern.ProblemStatement.Main" />
-      <module name="LLD" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Design_Patterns.StructuralDesignPattern.CompositeDesignPattern.ProblemStatement.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client" />
         <item itemvalue="Application.Design_Patterns.BehaviouralDesignPattern.MomentoDesignPattern.Client" />
         <item itemvalue="Application.Design_Patterns.StructuralDesignPattern.FlyWeightPattern.WordProcessor.Main" />
         <item itemvalue="Application.Design_Patterns.StructuralDesignPattern.CompositeDesignPattern.Solution2WithCompositeDesign.Main" />
         <item itemvalue="Application.Design_Patterns.StructuralDesignPattern.CompositeDesignPattern.Solution1WithCompositeDesign.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +155,7 @@
       <workItem from="1709463350822" duration="25945000" />
       <workItem from="1710162146090" duration="9125000" />
       <workItem from="1720430675890" duration="19776000" />
-      <workItem from="1720851593928" duration="26234000" />
+      <workItem from="1720851593928" duration="34324000" />
     </task>
     <task id="LOCAL-00001" summary="strategy design pattern">
       <created>1709052802313</created>
@@ -259,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1720962935822</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="design pattern">
+      <created>1722209772648</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1722209772648</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,6 +275,7 @@
     <MESSAGE value="State Design Pattern" />
     <MESSAGE value="Proxy Design Pattern" />
     <MESSAGE value="bridge and adapter design pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="bridge and adapter design pattern" />
+    <MESSAGE value="design pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="design pattern" />
   </component>
 </project>

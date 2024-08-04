@@ -4,23 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="abebada2-e62e-4608-8dca-6fc42a904dae" name="Changes" comment="design pattern">
-      <change afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/CAR_RENTAL_SYSTEM/Bill.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/CAR_RENTAL_SYSTEM/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/CAR_RENTAL_SYSTEM/Location.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/CAR_RENTAL_SYSTEM/Payment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/CAR_RENTAL_SYSTEM/Product/Bike.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/CAR_RENTAL_SYSTEM/Product/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/CAR_RENTAL_SYSTEM/Product/Status.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/CAR_RENTAL_SYSTEM/Product/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/CAR_RENTAL_SYSTEM/Product/VehicleType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/CAR_RENTAL_SYSTEM/Reservation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/CAR_RENTAL_SYSTEM/ReservationStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/CAR_RENTAL_SYSTEM/ReservationType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/CAR_RENTAL_SYSTEM/Store.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/CAR_RENTAL_SYSTEM/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/CAR_RENTAL_SYSTEM/VehicleInventoryManagement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/CAR_RENTAL_SYSTEM/VehicleRentalSystem.java" afterDir="false" />
+    <list default="true" id="abebada2-e62e-4608-8dca-6fc42a904dae" name="Changes" comment="LLD of car rental">
+      <change afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/SPLITWISE/Balance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/SPLITWISE/BalanceSheetController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/SPLITWISE/Expense/Expense.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/SPLITWISE/Expense/ExpenseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/SPLITWISE/Expense/ExpenseSplitType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/SPLITWISE/Expense/Split/EqualExpenseSplit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/SPLITWISE/Expense/Split/ExpenseSplit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/SPLITWISE/Expense/Split/PercentageExpenseSplit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/SPLITWISE/Expense/Split/Split.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/SPLITWISE/Expense/Split/UnequalExpenseSplit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/SPLITWISE/Expense/SplitFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/SPLITWISE/Group/Group.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/SPLITWISE/Group/GroupController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/SPLITWISE/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/SPLITWISE/Splitwise.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/SPLITWISE/User/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/SPLITWISE/User/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/SPLITWISE/UserExpenseBalanceSheet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,8 +33,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -67,7 +69,7 @@
       <recent name="Design_Patterns.StrategyDesignPattern" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Client">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="INTERVIEW_QUESTION.CAR_RENTAL_SYSTEM.Client" />
       <module name="LLD" />
@@ -87,19 +89,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Design_Patterns.BehaviouralDesignPattern.MomentoDesignPattern.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Design_Patterns.StructuralDesignPattern.CompositeDesignPattern.Solution1WithCompositeDesign.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Design_Patterns.StructuralDesignPattern.CompositeDesignPattern.Solution1WithCompositeDesign.Main" />
-      <module name="LLD" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Design_Patterns.StructuralDesignPattern.CompositeDesignPattern.Solution1WithCompositeDesign.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,13 +122,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="INTERVIEW_QUESTION.SPLITWISE.Main" />
+      <module name="LLD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="INTERVIEW_QUESTION.SPLITWISE.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.Design_Patterns.BehaviouralDesignPattern.MomentoDesignPattern.Client" />
         <item itemvalue="Application.Design_Patterns.StructuralDesignPattern.FlyWeightPattern.WordProcessor.Main" />
         <item itemvalue="Application.Design_Patterns.StructuralDesignPattern.CompositeDesignPattern.Solution2WithCompositeDesign.Main" />
-        <item itemvalue="Application.Design_Patterns.StructuralDesignPattern.CompositeDesignPattern.Solution1WithCompositeDesign.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +157,7 @@
       <workItem from="1709463350822" duration="25945000" />
       <workItem from="1710162146090" duration="9125000" />
       <workItem from="1720430675890" duration="19776000" />
-      <workItem from="1720851593928" duration="34324000" />
+      <workItem from="1720851593928" duration="42138000" />
     </task>
     <task id="LOCAL-00001" summary="strategy design pattern">
       <created>1709052802313</created>
@@ -255,7 +257,14 @@
       <option name="project" value="LOCAL" />
       <updated>1722209772648</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="LLD of car rental">
+      <created>1722755494880</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1722755494880</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,6 +285,7 @@
     <MESSAGE value="Proxy Design Pattern" />
     <MESSAGE value="bridge and adapter design pattern" />
     <MESSAGE value="design pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="design pattern" />
+    <MESSAGE value="LLD of car rental" />
+    <option name="LAST_COMMIT_MESSAGE" value="LLD of car rental" />
   </component>
 </project>

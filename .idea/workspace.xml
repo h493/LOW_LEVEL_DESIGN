@@ -4,26 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="abebada2-e62e-4608-8dca-6fc42a904dae" name="Changes" comment="LLD of car rental">
-      <change afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/SPLITWISE/Balance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/SPLITWISE/BalanceSheetController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/SPLITWISE/Expense/Expense.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/SPLITWISE/Expense/ExpenseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/SPLITWISE/Expense/ExpenseSplitType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/SPLITWISE/Expense/Split/EqualExpenseSplit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/SPLITWISE/Expense/Split/ExpenseSplit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/SPLITWISE/Expense/Split/PercentageExpenseSplit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/SPLITWISE/Expense/Split/Split.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/SPLITWISE/Expense/Split/UnequalExpenseSplit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/SPLITWISE/Expense/SplitFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/SPLITWISE/Group/Group.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/SPLITWISE/Group/GroupController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/SPLITWISE/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/SPLITWISE/Splitwise.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/SPLITWISE/User/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/SPLITWISE/User/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/SPLITWISE/UserExpenseBalanceSheet.java" afterDir="false" />
+    <list default="true" id="abebada2-e62e-4608-8dca-6fc42a904dae" name="Changes" comment="splitwise">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/TICTACTOE/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/TICTACTOE/Model/Board.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/TICTACTOE/Model/PeiceType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/TICTACTOE/Model/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/TICTACTOE/Pair.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/TICTACTOE/TicTacToeGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/SPLITWISE/Expense/Split/EqualExpenseSplit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/SPLITWISE/Expense/Split/EqualExpenseSplit.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -46,7 +36,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2cxI5lx4vSCF1wd9z9XHudLTqbi" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -65,11 +57,14 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="INTERVIEW_QUESTION.TICTACTOE" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="Design_Patterns.StrategyDesignPattern" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.INTERVIEW_QUESTION.TICTACTOE.Main">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="INTERVIEW_QUESTION.CAR_RENTAL_SYSTEM.Client" />
       <module name="LLD" />
@@ -96,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Design_Patterns.StructuralDesignPattern.CompositeDesignPattern.Solution2WithCompositeDesign.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Design_Patterns.StructuralDesignPattern.CompositeDesignPattern.Solution2WithCompositeDesign.Main" />
+    <configuration name="Design_Patterns.StructuralDesignPattern.FlyWeightPattern.WordProcessor.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Design_Patterns.StructuralDesignPattern.FlyWeightPattern.WordProcessor.Main" />
       <module name="LLD" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Design_Patterns.StructuralDesignPattern.CompositeDesignPattern.Solution2WithCompositeDesign.*" />
+          <option name="PATTERN" value="Design_Patterns.StructuralDesignPattern.FlyWeightPattern.WordProcessor.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Design_Patterns.StructuralDesignPattern.FlyWeightPattern.WordProcessor.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Design_Patterns.StructuralDesignPattern.FlyWeightPattern.WordProcessor.Main" />
+    <configuration name="INTERVIEW_QUESTION.TICTACTOE.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="INTERVIEW_QUESTION.TICTACTOE.Main" />
       <module name="LLD" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Design_Patterns.StructuralDesignPattern.FlyWeightPattern.WordProcessor.*" />
+          <option name="PATTERN" value="INTERVIEW_QUESTION.TICTACTOE.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.INTERVIEW_QUESTION.TICTACTOE.Main" />
         <item itemvalue="Application.Client" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Design_Patterns.BehaviouralDesignPattern.MomentoDesignPattern.Client" />
         <item itemvalue="Application.Design_Patterns.StructuralDesignPattern.FlyWeightPattern.WordProcessor.Main" />
-        <item itemvalue="Application.Design_Patterns.StructuralDesignPattern.CompositeDesignPattern.Solution2WithCompositeDesign.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -157,7 +152,7 @@
       <workItem from="1709463350822" duration="25945000" />
       <workItem from="1710162146090" duration="9125000" />
       <workItem from="1720430675890" duration="19776000" />
-      <workItem from="1720851593928" duration="42138000" />
+      <workItem from="1720851593928" duration="57367000" />
     </task>
     <task id="LOCAL-00001" summary="strategy design pattern">
       <created>1709052802313</created>
@@ -264,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1722755494880</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="splitwise">
+      <created>1722790881686</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1722790881686</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -286,6 +288,7 @@
     <MESSAGE value="bridge and adapter design pattern" />
     <MESSAGE value="design pattern" />
     <MESSAGE value="LLD of car rental" />
-    <option name="LAST_COMMIT_MESSAGE" value="LLD of car rental" />
+    <MESSAGE value="splitwise" />
+    <option name="LAST_COMMIT_MESSAGE" value="splitwise" />
   </component>
 </project>

@@ -4,16 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="abebada2-e62e-4608-8dca-6fc42a904dae" name="Changes" comment="splitwise">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/TICTACTOE/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/TICTACTOE/Model/Board.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/TICTACTOE/Model/PeiceType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/TICTACTOE/Model/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/TICTACTOE/Pair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/TICTACTOE/TicTacToeGame.java" afterDir="false" />
+    <list default="true" id="abebada2-e62e-4608-8dca-6fc42a904dae" name="Changes" comment="tic tac toe">
+      <change afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/ElevatorDesign/Direction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/ElevatorDesign/ElevatorCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/ElevatorDesign/ElevatorController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/ElevatorDesign/ElevatorDisplay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/ElevatorDesign/ElevatorDoor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/ElevatorDesign/ElevatorState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/ElevatorDesign/InternalButtons.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/SPLITWISE/Expense/Split/EqualExpenseSplit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/SPLITWISE/Expense/Split/EqualExpenseSplit.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -152,7 +151,10 @@
       <workItem from="1709463350822" duration="25945000" />
       <workItem from="1710162146090" duration="9125000" />
       <workItem from="1720430675890" duration="19776000" />
-      <workItem from="1720851593928" duration="57367000" />
+      <workItem from="1720851593928" duration="60798000" />
+      <workItem from="1723395701225" duration="83000" />
+      <workItem from="1723395790158" duration="66000" />
+      <workItem from="1723396000861" duration="9000" />
     </task>
     <task id="LOCAL-00001" summary="strategy design pattern">
       <created>1709052802313</created>
@@ -266,7 +268,14 @@
       <option name="project" value="LOCAL" />
       <updated>1722790881686</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="tic tac toe">
+      <created>1723311239326</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1723311239326</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,6 +298,7 @@
     <MESSAGE value="design pattern" />
     <MESSAGE value="LLD of car rental" />
     <MESSAGE value="splitwise" />
-    <option name="LAST_COMMIT_MESSAGE" value="splitwise" />
+    <MESSAGE value="tic tac toe" />
+    <option name="LAST_COMMIT_MESSAGE" value="tic tac toe" />
   </component>
 </project>

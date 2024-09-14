@@ -3,6 +3,8 @@ package LAMBDA.LambdaExercises.Exercise1;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
+import java.util.function.Consumer;
+import java.util.function.Predicate;
 
 public class Unit1ExerciseSolution_Java8 {
 
@@ -20,13 +22,15 @@ public class Unit1ExerciseSolution_Java8 {
 
 
         //step2 : Create a methods that prints all elements in the list
-        printConditionally(people, p -> true);
+        printConditionally(people, p -> true, p-> System.out.println(p));
 
         //step3: create a method that prints all people that have last name beginning with C
         System.out.println("**************** Print with last name begin with C *******************");
         // printAllWithLastNameBeggingWithC(people);
-        printConditionally(people, p -> p.getLastName().startsWith("C"));
+        printConditionally(people, p -> p.getLastName().startsWith("C"), p-> System.out.println(p));
 
+        // print only the firstName
+        printConditionally(people, p -> p.getLastName().startsWith("C"), p-> System.out.println(p.getFirstName()));
 
     }
 //
@@ -35,9 +39,11 @@ public class Unit1ExerciseSolution_Java8 {
 //    }
 //
 //
-    private static void printConditionally(List<Person> people, Unit1Exercise.Condition condition ){
+    private static void printConditionally(List<Person> people, Predicate<Person> predicate, Consumer<Person> consumer){
         for(Person p : people){
-            if(condition.test(p)) System.out.println(p);
+            if(predicate.test(p)){
+                consumer.accept(p);
+            }
         }
     }
 

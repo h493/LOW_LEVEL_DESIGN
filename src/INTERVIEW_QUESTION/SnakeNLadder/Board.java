@@ -22,6 +22,7 @@ public class Board {
             }
         }
     }
+
     private void addSnakesLadders(Cell[][] cells, int numberOfSnakes, int numberOfLadders){
 
         while(numberOfSnakes > 0) {

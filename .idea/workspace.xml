@@ -5,14 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="abebada2-e62e-4608-8dca-6fc42a904dae" name="Changes" comment="tic tac toe">
-      <change afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/ElevatorDesign/Direction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/ElevatorDesign/ElevatorCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/ElevatorDesign/ElevatorController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/ElevatorDesign/ElevatorDisplay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/ElevatorDesign/ElevatorDoor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/ElevatorDesign/ElevatorState.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/ElevatorDesign/InternalButtons.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLDInterviewQuestions/SnakeAndFoodGame/AIMovementStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLDInterviewQuestions/SnakeAndFoodGame/Board.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLDInterviewQuestions/SnakeAndFoodGame/BonusFood.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLDInterviewQuestions/SnakeAndFoodGame/DIRECTION.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLDInterviewQuestions/SnakeAndFoodGame/FoodFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLDInterviewQuestions/SnakeAndFoodGame/FoodItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLDInterviewQuestions/SnakeAndFoodGame/GameController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLDInterviewQuestions/SnakeAndFoodGame/HumanMovementStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLDInterviewQuestions/SnakeAndFoodGame/MovementStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLDInterviewQuestions/SnakeAndFoodGame/NormalFood.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLDInterviewQuestions/SnakeAndFoodGame/Position.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLDInterviewQuestions/SnakeAndFoodGame/Snake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LLDInterviewQuestions/SnakeAndFoodGame/SnakeGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/SnakeNLadder/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/INTERVIEW_QUESTION/SnakeNLadder/Board.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,17 +30,32 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Enum" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;h493&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/h493/LOW_LEVEL_DESIGN.git&quot;,
+    &quot;accountId&quot;: &quot;cc7170f1-39ae-41cb-9104-e7b342405712&quot;
+  }
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2cxI5lx4vSCF1wd9z9XHudLTqbi" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -44,10 +66,14 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Application.Design_Patterns.BehaviouralDesignPattern.ChainResponsiblityDesignPattern.Client.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/himanshuchhikara/Desktop/LOW_LEVEL_DESIGN&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -63,7 +89,7 @@
       <recent name="Design_Patterns.StrategyDesignPattern" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.INTERVIEW_QUESTION.TICTACTOE.Main">
+  <component name="RunManager" selected="Application.GameController">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="INTERVIEW_QUESTION.CAR_RENTAL_SYSTEM.Client" />
       <module name="LLD" />
@@ -77,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Design_Patterns.BehaviouralDesignPattern.MomentoDesignPattern.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Design_Patterns.BehaviouralDesignPattern.MomentoDesignPattern.Client" />
+    <configuration name="Design_Patterns.BehaviouralDesignPattern.ChainResponsiblityDesignPattern.Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Design_Patterns.BehaviouralDesignPattern.ChainResponsiblityDesignPattern.Client" />
       <module name="LLD" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Design_Patterns.BehaviouralDesignPattern.MomentoDesignPattern.*" />
+          <option name="PATTERN" value="Design_Patterns.BehaviouralDesignPattern.ChainResponsiblityDesignPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Design_Patterns.StructuralDesignPattern.FlyWeightPattern.WordProcessor.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Design_Patterns.StructuralDesignPattern.FlyWeightPattern.WordProcessor.Main" />
+    <configuration name="GameController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LLDInterviewQuestions.SnakeAndFoodGame.GameController" />
       <module name="LLD" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Design_Patterns.StructuralDesignPattern.FlyWeightPattern.WordProcessor.*" />
+          <option name="PATTERN" value="LLDInterviewQuestions.SnakeAndFoodGame.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GameController" />
+        <item itemvalue="Application.Design_Patterns.BehaviouralDesignPattern.ChainResponsiblityDesignPattern.Client" />
         <item itemvalue="Application.INTERVIEW_QUESTION.TICTACTOE.Main" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Design_Patterns.BehaviouralDesignPattern.MomentoDesignPattern.Client" />
-        <item itemvalue="Application.Design_Patterns.StructuralDesignPattern.FlyWeightPattern.WordProcessor.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -300,5 +326,16 @@
     <MESSAGE value="splitwise" />
     <MESSAGE value="tic tac toe" />
     <option name="LAST_COMMIT_MESSAGE" value="tic tac toe" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Design_Patterns/BehaviouralDesignPattern/ObserverDesignPattern/Observable/IphoneObservable.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

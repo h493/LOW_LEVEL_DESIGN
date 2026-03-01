@@ -1,4 +1,6 @@
-package LLDInterviewQuestions.SnakeAndFoodGame;
+package LLDInterviewQuestions.SnakeAndFoodGame.Food;
+
+import LLDInterviewQuestions.SnakeAndFoodGame.Position;
 
 public class FoodFactory {
     // static method to create a food item at a given Position

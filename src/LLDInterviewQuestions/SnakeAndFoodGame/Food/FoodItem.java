@@ -1,4 +1,6 @@
-package LLDInterviewQuestions.SnakeAndFoodGame;
+package LLDInterviewQuestions.SnakeAndFoodGame.Food;
+
+import LLDInterviewQuestions.SnakeAndFoodGame.Position;
 
 public abstract class FoodItem {
     protected Position position;

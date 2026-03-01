@@ -1,8 +1,13 @@
 package LLDInterviewQuestions.SnakeAndFoodGame;
 
+import LLDInterviewQuestions.SnakeAndFoodGame.Food.FoodFactory;
+import LLDInterviewQuestions.SnakeAndFoodGame.Food.FoodItem;
+import LLDInterviewQuestions.SnakeAndFoodGame.Input.ConsoleInputProvider;
+import LLDInterviewQuestions.SnakeAndFoodGame.Input.InputProvider;
+import LLDInterviewQuestions.SnakeAndFoodGame.MovementStrategy.HumanMovementStrategy;
+
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner;
 
 public class GameController {
 
@@ -19,18 +24,14 @@ public class GameController {
         SnakeGame game = new SnakeGame(5, 5, foods, new HumanMovementStrategy());
 
         // 3️⃣ Start Game Loop
-        Scanner scanner = new Scanner(System.in);
-        DIRECTION currentDirection = DIRECTION.R;
-
         System.out.println("Snake Game Started!");
         System.out.println("Enter direction: U, D, L, R");
 
+        InputProvider inputProvider = new ConsoleInputProvider();
         while (true) {
 
-            String input = scanner.nextLine().toUpperCase();
-
             try {
-                DIRECTION newDirection = DIRECTION.valueOf(input);
+                DIRECTION newDirection = inputProvider.getNextDirection();
 
                 int result = game.move(newDirection);
 
@@ -45,8 +46,6 @@ public class GameController {
                 System.out.println("Invalid Direction! Use U, D, L, R");
             }
         }
-
-        scanner.close();
     }
 }
 

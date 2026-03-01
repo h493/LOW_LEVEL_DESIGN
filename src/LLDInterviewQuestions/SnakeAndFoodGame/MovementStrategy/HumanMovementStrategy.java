@@ -1,6 +1,9 @@
-package LLDInterviewQuestions.SnakeAndFoodGame;
+package LLDInterviewQuestions.SnakeAndFoodGame.MovementStrategy;
 
-public class HumanMovementStrategy implements MovementStrategy{
+import LLDInterviewQuestions.SnakeAndFoodGame.DIRECTION;
+import LLDInterviewQuestions.SnakeAndFoodGame.Position;
+
+public class HumanMovementStrategy implements MovementStrategy {
     @Override
     public Position getNextPosition(Position currentHead, DIRECTION direction) {
         int row = currentHead.getRow();

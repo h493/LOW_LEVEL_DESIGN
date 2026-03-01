@@ -1,16 +1,20 @@
 package LLDInterviewQuestions.SnakeAndFoodGame;
 
+import LLDInterviewQuestions.SnakeAndFoodGame.Board.FiniteBoard;
+import LLDInterviewQuestions.SnakeAndFoodGame.Food.FoodItem;
+import LLDInterviewQuestions.SnakeAndFoodGame.MovementStrategy.MovementStrategy;
+
 import java.util.List;
 
 public class SnakeGame {
     Snake snake;
     List<FoodItem> foods;
     int score;
-    Board board;
+    FiniteBoard finiteBoard;
     MovementStrategy movementStrategy;
 
     public SnakeGame(int height, int width, List<FoodItem> foodItems, MovementStrategy movementStrategy) {
-        this.board = Board.getBoard(height, width);
+        this.finiteBoard = FiniteBoard.getBoard(height, width);
         this.snake = new Snake();
         this.foods = foodItems;
         this.score = 0;
@@ -26,10 +30,9 @@ public class SnakeGame {
             direction = currentDirection; // ignore reverse input
         }
 
-        Position nextPosition =
-                movementStrategy.getNextPosition(currentHead, direction);
+        Position nextPosition = movementStrategy.getNextPosition(currentHead, direction);
 
-        if (board.isOutOfBounds(nextPosition)) {
+        if (finiteBoard.isOutOfBounds(nextPosition)) {
             return -1;
         }
 
